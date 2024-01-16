@@ -1,6 +1,6 @@
 {
  "HASERVERS": ["HA1","HA2","HA3"],
  "SERVERS": ["S1","S2","S3"],
- "BACKEND": ["backend"],
+ "BACKEND": ["BA1"],
  "SOCKFILE": "var/test"
 }
