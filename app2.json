@@ -1,6 +1,8 @@
 {
  "HASERVERS": ["App2HA1","App2HA2","App2HA3"],
  "SERVERS": ["App2S1","App2S2","App2S3"],
+ "DC1SERVERS": ["App2DC1S1","App2DC1S2","App2DC1S3"],
+ "DC2SERVERS": ["App2DC2S1","App2DC2S2","App2DC2S3"],
  "BACKEND": ["app2-back1","app2-back2"],
  "SOCKFILE": "var/test/app2"
 }
