@@ -1,5 +1,5 @@
 {
- "App1Server": ["App1S1","App1S2","35.154.223.101","13.233.146.33"],
+ "App1Server": ["35.154.223.101","13.233.146.33"],
  "MicroservicesF" :["FApp1MS1","FApp1MS2","FApp1MS3"],
  "scriptloc": ["/var/lib/jenkins/workspace/Dummy/TestPipeLine/id_rsa","",""]
 }
