@@ -1,0 +1,31 @@
+{
+    "HAPROXY_SERVERS": [
+     "haproxy1-prod.nce",
+     "haproxy2-prod.nce",
+     "haproxy3-prod.nce",
+     "haproxy4-prod.nce"
+    ],
+  
+    "NCESERVERS": [
+        "prod.nce1",
+		    "prod.nce2"
+    ],
+      
+    "NCWSERVERS": [
+        "prod.ncw1",
+		    "prod.ncw1"
+    ],
+    "BACKEND": [
+        "api-v2"
+    ],
+      
+	"API" : [
+	    "api_1",
+		  "api_2"
+	],
+    
+  "SOCKFILE": "/var/lib/haproxy/stats",
+	
+	"DIRECTORY": "/home/deployment-scripts/scripts"
+
+}
