@@ -1,19 +1,17 @@
 {
     "HAPROXY_SERVERS": [
-     "haproxy1-prod.nce",
+     "13.233.146.33",
      "haproxy2-prod.nce",
-     "haproxy3-prod.nce",
-     "haproxy4-prod.nce"
     ],
   
     "NCESERVERS": [
         "prod.nce1",
-		    "prod.nce2"
+	"prod.nce2"
     ],
       
     "NCWSERVERS": [
         "prod.ncw1",
-		    "prod.ncw1"
+        "prod.ncw1"
     ],
     "BACKEND": [
         "api-v2"
