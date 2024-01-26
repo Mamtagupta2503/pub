@@ -5,7 +5,7 @@
     ],
   
     "NCESERVERS": [
-        "prod.nce1",
+        "13.233.146.33",
 	"prod.nce2"
     ],
       
