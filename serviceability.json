@@ -1,0 +1,36 @@
+{
+    "HAPROXY_SERVERS": [
+		"sli-ncehaproxy1",
+		"sli-ncehaproxy2",
+		"sli-ncwhaproxy1",
+		"sli-ncwhaproxy2"    
+		],
+  
+    "NCESERVERS": [
+        "sli-server1-nce",
+        "sli-server2-nce",
+        "sli-server3-nce",
+        "sli-server4-nce"
+    ],
+    "NCWSERVERS": [
+        "sli-server1-ncw",
+        "sli-server2-ncw",
+        "sli-server3-ncw",
+        "sli-server4-ncw"
+    ],
+    "BACKEND": [
+        "context",
+		"uploader",
+		"wrapper",
+		"context-graphql"
+		
+    ],
+	"API" : [
+	    "sli-uploader",
+		"sli-context",
+		"sli-wrapper",
+		"sli-graphql"
+	],
+    "SOCKFILE": "/data/apps/haproxy/haproxy_sock"
+	"DIRECTORY": "/home/oosuser/deployment-scripts/scripts/"
+}

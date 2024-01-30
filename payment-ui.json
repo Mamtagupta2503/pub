@@ -1,0 +1,36 @@
+{
+    "HAPROXY_SERVERS": [
+		"pui-ncehaproxy1",
+		"pui-ncehaproxy2",
+		"pui-ncwhaproxy1",
+		"pui-ncwhaproxy2"    
+		],
+  
+    "NCESERVERS": [
+        "pui-server1-nce",
+        "pui-server2-nce",
+        "pui-server3-nce",
+        "pui-server4-nce"
+    ],
+    "NCWSERVERS": [
+        "pui-server1-ncw",
+        "pui-server2-ncw",
+        "pui-server3-ncw",
+        "pui-server4-ncw"
+    ],
+    "BACKEND": [
+        "context",
+		"uploader",
+		"wrapper",
+		"context-graphql"
+		
+    ],
+	"API" : [
+	    "pui-uploader",
+		"pui-context",
+		"pui-wrapper",
+		"pui-graphql"
+	],
+    "SOCKFILE": "/data/apps/haproxy/haproxy_sock"
+	"DIRECTORY": "/home/oosuser/deployment-scripts/scripts/"
+}

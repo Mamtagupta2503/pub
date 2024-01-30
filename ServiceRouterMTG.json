@@ -1,0 +1,36 @@
+{
+    "HAPROXY_SERVERS": [
+		"srmtg-ncehaproxy1",
+		"srmtg-ncehaproxy2",
+		"srmtg-ncwhaproxy1",
+		"srmtg-ncwhaproxy2"    
+		],
+  
+    "NCESERVERS": [
+        "srmtg-server1-nce",
+        "srmtg-server2-nce",
+        "srmtg-server3-nce",
+        "srmtg-server4-nce"
+    ],
+    "NCWSERVERS": [
+        "srmtg-server1-ncw",
+        "srmtg-server2-ncw",
+        "srmtg-server3-ncw",
+        "srmtg-server4-ncw"
+    ],
+    "BACKEND": [
+        "context",
+		"uploader",
+		"wrapper",
+		"context-graphql"
+		
+    ],
+	"API" : [
+	    "srmtg-uploader",
+		"srmtg-context",
+		"srmtg-wrapper",
+		"srmtg-graphql"
+	],
+    "SOCKFILE": "/data/apps/haproxy/haproxy_sock"
+	"DIRECTORY": "/home/oosuser/deployment-scripts/scripts/"
+}
