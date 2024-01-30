@@ -26,10 +26,7 @@
 		
     ],
 	"API" : [
-	    "sli-uploader",
-		"sli-context",
-		"sli-wrapper",
-		"sli-graphql"
+	    "sli-uploader"
 	],
     "SOCKFILE": "/data/apps/haproxy/haproxy_sock",
 	"DIRECTORY": "/home/oosuser/deployment-scripts/scripts/"
