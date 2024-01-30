@@ -26,10 +26,7 @@
 		
     ],
 	"API" : [
-	    "pui-uploader",
-		"pui-context",
-		"pui-wrapper",
-		"pui-graphql"
+	    "pui-v2"
 	],
     "SOCKFILE": "/data/apps/haproxy/haproxy_sock",
 	"DIRECTORY": "/home/oosuser/deployment-scripts/scripts/"
