@@ -26,10 +26,7 @@
 		
     ],
 	"API" : [
-	    "srmtg-uploader",
-		"srmtg-context",
-		"srmtg-wrapper",
-		"srmtg-graphql"
+	    "srmtg-v1"
 	],
     "SOCKFILE": "/data/apps/haproxy/haproxy_sock",
 	"DIRECTORY": "/home/oosuser/deployment-scripts/scripts/"
